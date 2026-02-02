@@ -93,7 +93,7 @@ const LoginPage = () => {
               isValid ? "bg-[#DC751A]" : "bg-[#dc751ad9]"
             }`}
           >
-            Login
+            <Link to="dashboard">Login</Link>
           </button>
         </form>
 
