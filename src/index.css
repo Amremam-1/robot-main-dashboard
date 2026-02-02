@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+@import "tailwindcss";
+
+
+:root {
+  --primary-color: #DC751A;
+  --main-background: #12151B;
+  --main-bgCard: #1E2027;
+  --primary-color-text: #EDEDED;
+  --secondary-text: #A1A1A1;
+  --muted: #6B6B6B;
+  --border: #46484F;
+  --table-header: #202020;
+  --danger-text: #EF4444;
+  --success: #22C55E;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.main-color {
+  background: #F3801B;
+}
+
+.primary-color {
+  background: #12151B;
+}
+
+.secondary-color {
+  background: #1E2128;
+}
+
+.text-color {
+  color: #E5E4E8;
+}
+
+.border-color {
+  border: 1px solid #31333B;
+}
